@@ -9,9 +9,8 @@ services:
     networks:
       - backend
   web:
-    build: ./web
+    image: django:latest
     container_name: web
-    command: python manage.py runserver 0.0.0.0:8080
     volumes:
       - .:/web_django
     ports:
