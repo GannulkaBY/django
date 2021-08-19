@@ -41,4 +41,4 @@ jobs:
           # The path to the Dockerfile to lint
           dockerfile: web/Dockerfile
           # A space separated string of rules to ignore
-          ignore: # DL3020 DL3013 DL3042
+          ignore:  DL3020 DL3013 DL3042
